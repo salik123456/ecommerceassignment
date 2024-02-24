@@ -108,7 +108,7 @@ E-Comm , 4578<br/> Marmora Road,<br/> Glasgow D04 89GR
 <div className='border-t border-[#F6F7F8]  mb-6 mt-12 ' />
 <div className='flex justify-between'>
 <div>
-<p className='text-[#C1C8CE] text-xs'>© 2018 Ecommerce theme by www.bisenbaev.com</p>
+<p className='text-[#C1C8CE] text-xs'>© 2018 Ecommerce theme by www.bisehnbaev.com</p>
 </div>
 <div className='flex'>
   <Image src={brands} alt='brand'/>
