@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.site-wrapper{
+max-width: 1500px;
+padding: 5rem 6em;
+}
+.header-wrapper{
+    padding: 1.5rem 6rem;
+}
+.footer-sec{
+    padding-bottom: 2rem;
+}
