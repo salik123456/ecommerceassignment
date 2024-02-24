@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import arrowdown from '@/public/Global/arrow-down.svg';
 import Image from 'next/image';
 import profile from '@/public/Global/profile.svg'
-import cart from '@/public/Global/cart.svg'
+import cart from '@/public/Global/Cart.svg'
 import search from '@/public/Global/search-icon.svg'
 import Link from 'next/link';
 
