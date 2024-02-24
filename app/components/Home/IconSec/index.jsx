@@ -10,17 +10,17 @@ const IconSection = () => {
       <div className='flex lg:flex-row flex-col justify-between'>
 <div className='icon-box flex flex-col text-center items-center w-full lg:w-1/3'>
 <Image src={shipping} alt='shipping'/>
-<p className='text-[25px] mt-5 font-medium'>FREE SHIPPING</p>
+<p className='lg:text-[25px] text-md mt-5 font-medium'>FREE SHIPPING</p>
 </div>
 
-<div className='icon-box flex flex-col text-center items-center w-full lg:w-1/3'>
+<div className='icon-box flex flex-col mt-10 lg:mt-0 text-center items-center w-full lg:w-1/3'>
 <Image src={refund} alt='refund'/>
-<p className='text-[25px] mt-5 font-medium'>100% REFUND</p>
+<p className='lg:text-[25px] text-md mt-5 font-medium'>100% REFUND</p>
 </div>
 
-<div className='icon-box flex flex-col text-center items-center w-full lg:w-1/3'>
+<div className='icon-box flex flex-col mt-10 lg:mt-0 text-center items-center w-full lg:w-1/3'>
 <Image src={support} alt='SUPPORT'/>
-<p className='text-[25px] mt-5 font-medium'>SUPPORT 24/7</p>
+<p className='lg:text-[25px] text-md mt-5 font-medium'>SUPPORT 24/7</p>
 </div>
       </div>
     </div>

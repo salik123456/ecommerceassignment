@@ -50,11 +50,11 @@ const SellerSec = () => {
         <div className='mt-8'>
         <Tabs>
     <TabList className='text-center flex justify-center items-center'>
-      <Tab className='border-none cursor-pointer outline-none text-lg mr-12'>All</Tab>
-      <Tab className='border-none cursor-pointer outline-none text-lg mr-12'>Men</Tab>
-      <Tab className='border-none cursor-pointer outline-none text-lg mr-12'>Women</Tab>
-      <Tab className='border-none cursor-pointer outline-none text-lg mr-12'>Jewelery</Tab>
-      <Tab className='border-none cursor-pointer outline-none text-lg'>Electronics</Tab>
+      <Tab className='border-none cursor-pointer outline-none text-sm lg:text-lg mr-4 lg:mr-12'>All</Tab>
+      <Tab className='border-none cursor-pointer outline-none text-sm lg:text-lg mr-4 lg:mr-12'>Men</Tab>
+      <Tab className='border-none cursor-pointer outline-none text-sm lg:text-lg mr-4 lg:mr-12'>Women</Tab>
+      <Tab className='border-none cursor-pointer outline-none text-sm lg:text-lg mr-4 lg:mr-12'>Jewelery</Tab>
+      <Tab className='border-none cursor-pointer outline-none text-sm lg:text-lg'>Electronics</Tab>
     </TabList>
 <div className='mt-12'>
 <TabPanel>

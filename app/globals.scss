@@ -3,12 +3,26 @@
 @tailwind utilities;
 
 .site-wrapper{
-max-width: 1500px;
+// max-width: 1500px;
 padding: 5rem 6em;
 }
 .header-wrapper{
     padding: 1.5rem 6rem;
+    // max-width: 1500px;
 }
 .footer-sec{
     padding-bottom: 2rem;
+}
+body,html{
+    overflow-x:hidden ;
+}
+
+@media screen and (max-width:1024px){
+    .site-wrapper{
+        padding: 3rem 2rem;
+    }
+    .header-wrapper{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
