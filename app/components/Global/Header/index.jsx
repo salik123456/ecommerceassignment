@@ -86,11 +86,11 @@ const Header = () => {
 <Image src={profile} alt='profile'/>
 <p className='text-md ml-2'>My profile</p>
 </div>
-<div className='nav-list ml-4 flex'>
+<Link href='/cart' className='nav-list ml-4 flex'>
     <Image src={cart} alt='cart'/>
     <p className='text-md ml-2 hidden'>Cart</p>
     <sup className="bg-red-500 text-white items-center flex justify-center rounded-full px-2 ml-1">2</sup>
-</div>
+</Link>
 
 <div className='nav-list ml-4 flex'>
 <Image src={cart} alt='cart' className='hidden'/>
